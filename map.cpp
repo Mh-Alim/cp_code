@@ -25,6 +25,8 @@ int main(){
     else cout << "not";
 
     // find function me agar mughe koi key nhi milti to mp.end() ke equal ho jaati hai hence vo true return krti hai
+
+    /*
     cout << endl;
     cout << endl;
     cout << endl;
@@ -41,6 +43,21 @@ int main(){
 
     if(map.find({1,2}) == map.end()) cout << "founded pair" << endl;
     if(map.find({2,1}) == map.end()) cout << "not founded" << endl;
+    */
+
+
+    //default 0
+    cout <<" checking start" << endl;
+    cout << endl;
+    map<long,long> mapcheck;
+
+    for(int i=0;i<2;i++){
+        mapcheck[i]++;
+    }
+
+    for(auto x:mapcheck){
+        cout << x.first << " " << x.second<<endl;
+    }
 
 
 

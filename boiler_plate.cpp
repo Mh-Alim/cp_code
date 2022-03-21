@@ -9,7 +9,8 @@ using namespace std;
 int main(){
 
 
-
+    string s = "just boler plate code";
+    
 
 
     return 0;
