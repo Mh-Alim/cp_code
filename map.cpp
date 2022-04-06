@@ -22,7 +22,7 @@ int main(){
         cout << x.first <<" " <<x.second << endl;
     }
     if(mp.find(18) == mp.end()) cout << "founded";
-    else cout << "not";
+    else cout << "not"<<endl;
 
     // find function me agar mughe koi key nhi milti to mp.end() ke equal ho jaati hai hence vo true return krti hai
 
@@ -54,7 +54,7 @@ int main(){
     for(int i=0;i<2;i++){
         mapcheck[i]++;
     }
-
+    mapcheck[0]++;
     for(auto x:mapcheck){
         cout << x.first << " " << x.second<<endl;
     }
