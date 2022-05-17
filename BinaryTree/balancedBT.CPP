@@ -85,3 +85,4 @@ bool isBalanced(TreeNode* root) {
     if(height(root) == -1) return false;
     return true;
 }
+
